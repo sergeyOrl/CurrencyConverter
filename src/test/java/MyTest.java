@@ -7,6 +7,7 @@ import static org.testng.Assert.*;
 
 public class MyTest {
 
+
     @Test
     public void convertion_test() {
         USD dollatTest = new USD();
