@@ -1,5 +1,11 @@
 package currency;
 
+/**
+ * Create currency
+ *
+ * @see   EUR
+ * @author  Sergey Orlov
+ */
 public class ILS extends Coin {
     final double value = 0.28;
 

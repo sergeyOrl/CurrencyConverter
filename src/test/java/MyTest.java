@@ -5,9 +5,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
+/**
+ * Test to check conversion results
+ */
 public class MyTest {
-
-
     @Test
     public void convertion_test() {
         USD dollatTest = new USD();

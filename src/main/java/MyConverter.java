@@ -3,6 +3,17 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This is main program, it does:
+ * 1- ask user to choose currencies to convert
+ * 2- validate correct user input (if not - system will display error message)
+ * 3- display conversion result on screen
+ * 4- write result on list
+ * 5- ask user if he wants to continue
+ * 6- on exit display list with all conversions results
+ *
+ * @author   Sergey Orlov
+ */
 public class MyConverter {
     public static void main(String[] args) {
         CoinFactory coinfactory = new CoinFactory();

@@ -5,7 +5,19 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Method checks if user wants to continue to convert or exit
+ */
 public class UserContinueChoice {
+    /**
+     * Method will check user input and will redirect user to next conversion
+     * or exit program and display list of results
+     *
+     * @param resultsList  list where system stores conversion results after each conversion
+     * @param results      result of conversion
+     * @param desktop      calling desktop
+     * @return             list with results
+     */
     public String continueChoice(List<Double> resultsList, PrintWriter results, Desktop desktop) {
         String continueConvert;
         continueConvert = (new Scanner(System.in)).next();

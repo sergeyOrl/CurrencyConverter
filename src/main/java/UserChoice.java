@@ -1,6 +1,9 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Method validates that user input is correct (if not - system display error message)
+ */
 public class UserChoice {
     public int choice() {
         int x = 0;
